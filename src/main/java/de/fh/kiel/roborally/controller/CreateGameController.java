@@ -4,9 +4,9 @@ import de.fh.kiel.roborally.Runner;
 import de.fh.kiel.roborally.model.GameView;
 import de.fh.kiel.roborally.model.PlayerView;
 import de.fh.kiel.roborally.view.CreateGame;
-import org.springframework.http.converter.FormHttpMessageConverter;
-import org.springframework.http.converter.StringHttpMessageConverter;
-import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
+//import org.springframework.http.converter.FormHttpMessageConverter;
+//import org.springframework.http.converter.StringHttpMessageConverter;
+//import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
 import javax.swing.*;
@@ -50,12 +50,12 @@ public class CreateGameController {
         @Override
         public void actionPerformed(ActionEvent e) {
             RestTemplate restTemplate = new RestTemplate();
-            restTemplate.getMessageConverters().add(new MappingJacksonHttpMessageConverter());
-            restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
+//            restTemplate.getMessageConverters().add(new MappingJacksonHttpMessageConverter());
+//            restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
 
             String uri = "http://localhost:8080/games/create";
 
-            restTemplate.getMessageConverters().add(new FormHttpMessageConverter());
+//            restTemplate.getMessageConverters().add(new FormHttpMessageConverter());
 
             GameView gameView = GameView.createGameView();
             gameView.setGameView("",gameNameTextField.getText(),(Integer)maxRobotsComboBox.getSelectedItem(), 1);

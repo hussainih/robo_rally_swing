@@ -21,46 +21,45 @@
           <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.0" />
           <element id="library" level="project" name="Gradle: org.apache.commons:commons-lang3:3.5" />
           <element id="library" level="project" name="Gradle: com.jfoenix:jfoenix:1.3.0" />
-          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-data-rest:1.5.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-web:3.0.4.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.8.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.5.3.RELEASE" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.8" />
           <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-mapper-asl:1.9.13" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter:1.5.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-web:1.5.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
-          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-rest-webmvc:2.6.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.3.5.Final" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.8.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.8.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.8.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.8.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.8" />
           <element id="library" level="project" name="Gradle: org.codehaus.jackson:jackson-core-asl:1.9.13" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.3.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.3.RELEASE" />
           <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.17" />
-          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.3.5.Final" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.8.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-rest-core:2.6.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
-          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.11" />
-          <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" />
-          <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-core:8.5.14" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-el:8.5.14" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat.embed:tomcat-embed-websocket:8.5.14" />
           <element id="library" level="project" name="Gradle: javax.validation:validation-api:1.1.0.Final" />
           <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.1.Final" />
           <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.3" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.8.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework.hateoas:spring-hateoas:0.23.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:1.13.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework.plugin:spring-plugin-core:1.2.0.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.atteo:evo-inflector:1.2.1" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.8.RELEASE" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.11" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.11" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-rest/1.5.3.RELEASE/c80fba03d0088bc6b8b1a30216e65482802c5d2a/spring-boot-starter-data-rest-1.5.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.5.3.RELEASE/37469baf2a75a9d2230391a5038f49d4018d2bcc/spring-boot-starter-web-1.5.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.6.3.RELEASE/462a500fa09f2e09110c8b2c32a9d5b0651b7305/spring-data-rest-webmvc-2.6.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.8.RELEASE/ec1b675c2e234b0c776d36ed56c691520030026f/spring-web-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-core/2.6.3.RELEASE/1c3f2d77a7f9762422f15c10f524449a876f081e/spring-data-rest-core-2.6.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.8.RELEASE/7d84a40ac7eb8548aa67b8a3ae89baa8a5eb39a0/spring-tx-4.3.8.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.23.0.RELEASE/678ffa0798f417a794fea592dc8066e325611919/spring-hateoas-0.23.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.13.3.RELEASE/f8be49f9564b7b8736d8f1ebb55bbf4997c29514/spring-data-commons-1.13.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.atteo/evo-inflector/1.2.1/b9cdd1e7dc20a222db0853dfb152ef349c7d0eed/evo-inflector-1.2.1.jar" />
         </element>
       </element>
     </root>

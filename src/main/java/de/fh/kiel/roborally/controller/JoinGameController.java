@@ -4,9 +4,9 @@ import de.fh.kiel.roborally.Runner;
 import de.fh.kiel.roborally.model.GameView;
 import de.fh.kiel.roborally.model.PlayerView;
 import de.fh.kiel.roborally.view.JoinGame;
-import org.springframework.http.converter.FormHttpMessageConverter;
-import org.springframework.http.converter.StringHttpMessageConverter;
-import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
+//import org.springframework.http.converter.FormHttpMessageConverter;
+//import org.springframework.http.converter.StringHttpMessageConverter;
+//import org.springframework.http.converter.json.MappingJacksonHttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
 import javax.swing.*;
@@ -42,9 +42,9 @@ public class JoinGameController {
 
         final String uri = "http://localhost:8080/games/list";
         RestTemplate restTemplate = new RestTemplate();
-        restTemplate.getMessageConverters().add(new MappingJacksonHttpMessageConverter());
-        restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
-        restTemplate.getMessageConverters().add(new FormHttpMessageConverter());
+//        restTemplate.getMessageConverters().add(new MappingJacksonHttpMessageConverter());
+//        restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
+//        restTemplate.getMessageConverters().add(new FormHttpMessageConverter());
         DefaultTableModel newTable = new DefaultTableModel();
         gameViews = restTemplate.getForObject(uri, GameView[].class);
 
@@ -78,9 +78,9 @@ public class JoinGameController {
             );
             runner.setGameView(gameView);
             RestTemplate restTemplate = new RestTemplate();
-            restTemplate.getMessageConverters().add(new MappingJacksonHttpMessageConverter());
-            restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
-            restTemplate.getMessageConverters().add(new FormHttpMessageConverter());
+//            restTemplate.getMessageConverters().add(new MappingJacksonHttpMessageConverter());
+//            restTemplate.getMessageConverters().add(new StringHttpMessageConverter());
+//            restTemplate.getMessageConverters().add(new FormHttpMessageConverter());
 
             PlayerView playerView = PlayerView.createPlayerView();
             playerView.setPlayerView("", "CRAZZZZZZy", "secret", "", "");
